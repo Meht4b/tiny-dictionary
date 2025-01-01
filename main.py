@@ -66,7 +66,8 @@ while True:
                         print()
                         print(t)
                         response = model.generate_content("explain this word or sentence to me "+t)
-                        print(response.text)
+                        print(rf"{response.text}")
+
 
                     pyperclip.copy('')
 
